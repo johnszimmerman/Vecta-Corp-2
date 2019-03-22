@@ -1,0 +1,86 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	background: #DFE3E6;
+}
+a:link, a:visited {
+	color: #CC1C0D;	
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;	
+}
+.container {
+	background: #FFFFFF;
+	width: 940px;
+	margin: 20px auto;
+	padding: 0 10px;
+}
+.logo {
+	width: 220px; 
+	height: 125px;
+	background: url(../images/logo.gif) no-repeat;
+	margin-right: 20px;
+	float: left;
+}
+.nav	{
+	width: 700px; 
+	height:125px;
+	float: left;
+}
+.nav ul	{
+	margin-top:50px;
+	text-align:right;
+}
+.nav ul li {
+	display:inline;
+}
+.nav ul li a,
+.nav ul li a:visited {
+	padding: 3px 10px;
+	font-size: 1.4em;
+}
+.header {
+	width: 940px; 
+	height: 235px;
+	background: url(../images/header.gif) no-repeat;
+	clear: both;
+}
+h1 {
+	font-size: 1em;
+	color: #CC1C0D;
+	padding: 3px 0 3px 20px;
+	border-radius: 10px 0;
+	border: 1px solid #929CA4;
+	background: url(../images/icon_checker.gif) no-repeat 7px center #DFE3E6;
+}
+.content {
+	width: 620px;
+	margin-right:20px;
+	float: left;
+}
+.content p:nth-of-type(2) {
+	background: url(../images/logo_vprospect.gif) no-repeat 0 10px;
+	padding-left: 80px;
+}
+.content p:nth-of-type(3) {
+	background: url(../images/logo_vconvert.gif) no-repeat 0 10px;
+	padding-left: 80px;
+}
+.content p:nth-of-type(4) {
+	background: url(../images/logo_vretain.gif) no-repeat 0 10px;
+	padding-left: 80px;
+}
+.sidebar {
+	width: 300px;
+	float: left;
+}
+.footer {
+	font-size: 0.7em;
+	text-align: center;
+	color: #929CA4;
+	padding: 10px 0;
+	border-top: 1px solid #DFE3E6;
+	clear: both;
+}
